@@ -1,0 +1,5 @@
+include ':toastex2'
+include ':toastex1'
+include ':javacontextmenu'
+include ':app'
+rootProject.name = "ContextMenu"

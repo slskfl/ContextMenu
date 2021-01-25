@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/imgRotate"
+        android:title="이미지 45도 회전"/>
+    <item android:id="@+id/imgSize"
+        android:title="이미지 확대"/>
+    <item android:id="@+id/imgReturn"
+        android:title="기본 이미지"/>
+</menu>

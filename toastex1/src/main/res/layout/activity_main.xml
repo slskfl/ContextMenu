@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="x위치"/>
+        <EditText
+            android:id="@+id/edtY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="y위치"/>
+        <EditText
+            android:id="@+id/edtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="보여줄 내용을 입력하세요."/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="클릭하세요."/>
+</LinearLayout>
