@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 toast=new Toast(MainActivity.this);
                 toastView=View.inflate(MainActivity.this,R.layout.toast,null);
                 toastText=toastView.findViewById(R.id.toastText);
-                toastText.setText("내가 만든 토스트에 보이는 내용");
+                toastText.setText("우리는 인성 쓰레기 모임 ^_^");
                 toast.setView(toastView);
                 toast.show();
             }
